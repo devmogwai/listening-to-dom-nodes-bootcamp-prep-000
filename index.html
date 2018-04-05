@@ -4,7 +4,7 @@
     <title>Listening to Nodes</title>
     <style>
      div {
-       border: 1px solid red;
+       border: 1px solid blue;
        padding: 6px;
        min-height: 12px;
      }
@@ -12,6 +12,7 @@
   </head>
 
   <body>
+
     <main id="main">My ID is "main"!</main>
 
     <br />
@@ -37,5 +38,18 @@
         </div>
       </div>
     </div>
+    
+<script>
+const main = document.getElementById('main')
+ 
+main.addEventListener('click', function(event) {
+  alert('I was clicked!')
+})
+
+console.log ('WTF!')
+</script>
+
   </body>
 </html>
+
+
